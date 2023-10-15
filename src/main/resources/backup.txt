@@ -1,0 +1,12 @@
+        /*MongoClient mongoClient = new MongoClient(new MongoClientURI("mongodb://root:KYUU-JLxTJ#Qz#987H-Q#YKvSctn4F7U@localhost:27017/?authSource=admin"));
+        MongoCollection<Document> mongoCollection = mongoClient.getDatabase("player").getCollection("players");
+        mongoCollection.watch().forEach((Consumer<ChangeStreamDocument<Document>>) documentChangeStreamDocument -> {
+            if (!(documentChangeStreamDocument.getOperationType().equals(OperationType.UPDATE))) {
+                return;
+            }
+
+            System.out.println(documentChangeStreamDocument.getFullDocument());
+
+            Map<Client, Document> clientDocument = this.clientDocument;
+
+        });*/

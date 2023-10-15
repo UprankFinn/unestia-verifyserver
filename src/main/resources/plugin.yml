@@ -1,0 +1,9 @@
+name: VerifyServer
+author: Uprank
+version: 1.0-SNAPSHOT
+main: net.unesita.verifyserver.VerifyServer
+depend: [UnestiaCore]
+
+commands:
+  verify:
+    description: use this command to verify yourself on our TeamSpeak server!
