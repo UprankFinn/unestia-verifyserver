@@ -55,7 +55,7 @@ public class VerifyServer extends JavaPlugin {
     @Getter
     private final PlayerEntityHandler playerEntityHandler;
 
-    public static final String PREFIX = "§8[§c§lDEFENCE§8] §r";
+    public static final String PREFIX = "§8[§c§lVerify§8] §r";
 
     @Getter
     private PlayerInventory playerInventory;
